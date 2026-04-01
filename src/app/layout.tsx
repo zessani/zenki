@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     siteName: "Zenki Group",
     locale: "en_PK",
     type: "website",
+    images: [{ url: "/logo.jpg" }],
   },
 };
 
