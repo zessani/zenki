@@ -44,7 +44,7 @@ export default function OGImage() {
               margin: 0,
             }}
           >
-            Zenki Group
+            Zenki
           </p>
           <h1
             style={{
