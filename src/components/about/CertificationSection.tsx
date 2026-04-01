@@ -22,7 +22,7 @@ export function CertificationSection() {
               performance.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Zenki Group&apos;s auto care products carry PCSIR certification.
+              Zenki&apos;s auto care products carry PCSIR certification.
               The full Zenki Auto Care range has been independently tested and
               verified against Pakistani and international standards.
             </p>

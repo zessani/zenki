@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 export const metadata = {
   title: "Contact",
   description:
-    "Contact Zenki Group for wholesale, contract manufacturing, truck parts, import sourcing, or general enquiries. Email: info@zenki-pk.com",
+    "Contact Zenki for wholesale, contract manufacturing, truck parts, import sourcing, or general enquiries. Email: info@zenki-pk.com",
 };
 
 async function ContactFormWrapper({

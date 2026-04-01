@@ -26,7 +26,7 @@ export function Navbar() {
           <Link href="/" className="flex-shrink-0">
             <Image
               src="/logo.jpg"
-              alt="Zenki Group"
+              alt="Zenki"
               width={120}
               height={40}
               className="h-10 w-auto object-contain"

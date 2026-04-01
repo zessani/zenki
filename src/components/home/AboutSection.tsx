@@ -35,7 +35,7 @@ export function AboutSection() {
             </h2>
             <div className="w-16 h-0.5 bg-brand-blue-500 mb-6" />
             <p className="text-gray-700 leading-relaxed mb-4">
-              Zenki Group is a Karachi-based group operating across aerosol
+              Zenki is a Karachi-based group operating across aerosol
               manufacturing, auto care, truck parts and mirrors, and import
               sourcing from China.
             </p>

@@ -9,28 +9,30 @@ const inter = Inter({
   display: "swap",
 });
 
-const baseUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : "http://localhost:3000";
+const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://zenki-eta.vercel.app");
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Zenki Group | Manufacturing, Distribution and Trading",
-    template: "%s | Zenki Group",
+    default: "Zenki | Manufacturing, Distribution and Trading",
+    template: "%s | Zenki",
   },
   description:
-    "Zenki Group is a Pakistani manufacturing, distribution and trading group operating across aerosol production, auto care, truck parts and mirrors, and import sourcing. Based in Karachi.",
+    "Zenki is a Pakistani manufacturing, distribution and trading group operating across aerosol production, auto care, truck parts and mirrors, and import sourcing. Based in Karachi.",
   keywords: [
     "aerosol manufacturing Pakistan",
     "contract filling Pakistan",
     "truck parts Karachi",
     "mirror manufacturing Pakistan",
-    "Zenki Group",
+    "Zenki",
     "industrial group Pakistan",
   ],
   openGraph: {
-    siteName: "Zenki Group",
+    siteName: "Zenki",
     locale: "en_PK",
     type: "website",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

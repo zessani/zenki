@@ -4,7 +4,7 @@ export function CompanyStory() {
       <div className="px-6 sm:px-12 lg:px-20">
         <div className="max-w-3xl mx-auto">
           <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-widest mb-3">
-            About Zenki Group
+            About Zenki
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Manufacturing, Distribution and Trading
@@ -12,7 +12,7 @@ export function CompanyStory() {
           <div className="w-16 h-0.5 bg-brand-blue-500 mb-8" />
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Zenki Group is a Karachi-based industrial group with operations
+              Zenki is a Karachi-based industrial group with operations
               spanning aerosol manufacturing, auto care products, truck parts
               and mirrors, and direct import and sourcing from China. The group
               operates two manufacturing facilities and a nationwide distribution

@@ -18,7 +18,7 @@ export function Footer() {
           <div>
             <Image
               src="/logo.jpg"
-              alt="Zenki Group"
+              alt="Zenki"
               width={120}
               height={40}
               className="h-10 w-auto object-contain mb-4"
@@ -98,7 +98,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-gray-200 text-gray-500 text-xs flex flex-col sm:flex-row sm:justify-between gap-2">
-          <span>&copy; {new Date().getFullYear()} Zenki Group. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Zenki. All rights reserved.</span>
           <span>Karachi, Pakistan</span>
         </div>
       </div>
