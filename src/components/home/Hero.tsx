@@ -27,20 +27,22 @@ export function Hero() {
             Vertically integrated operations from Karachi
           </p>
           <div className="w-16 h-0.5 bg-brand-blue-500 mb-10" />
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-row gap-3 sm:gap-4">
             <Link
               href="/#divisions"
-              className="inline-flex items-center justify-center gap-2 bg-brand-blue-900 text-white px-5 py-2.5 text-sm sm:px-7 sm:py-3.5 sm:text-base rounded-md font-semibold hover:bg-brand-blue-600 transition-colors duration-200"
+              className="inline-flex items-center justify-center gap-1.5 bg-brand-blue-900 text-white px-4 py-2 text-xs sm:px-7 sm:py-3.5 sm:text-base rounded-md font-semibold hover:bg-brand-blue-600 transition-colors duration-200"
             >
               Our Divisions
-              <ArrowRight size={18} />
+              <ArrowRight size={14} className="sm:hidden" />
+              <ArrowRight size={18} className="hidden sm:block" />
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 border border-gray-300 text-gray-900 px-5 py-2.5 text-sm sm:px-7 sm:py-3.5 sm:text-base rounded-md font-semibold hover:border-brand-blue-500 hover:text-brand-blue-500 transition-colors duration-200"
+              className="inline-flex items-center justify-center gap-1.5 border border-gray-300 text-gray-900 px-4 py-2 text-xs sm:px-7 sm:py-3.5 sm:text-base rounded-md font-semibold hover:border-brand-blue-500 hover:text-brand-blue-500 transition-colors duration-200"
             >
               Partner with Us
-              <ArrowRight size={18} />
+              <ArrowRight size={14} className="sm:hidden" />
+              <ArrowRight size={18} className="hidden sm:block" />
             </Link>
           </div>
 
