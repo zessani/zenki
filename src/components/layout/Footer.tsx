@@ -64,6 +64,7 @@ export function Footer() {
               info@zenki-pk.com
             </a>
             <p className="text-gray-600 text-sm mb-4">
+              Jawad Autos, Karachi<br />
               No. 36/4A, Opposite Zoological Garden,<br />
               Murad Khan Rd, Karachi 74400, Pakistan
             </p>
