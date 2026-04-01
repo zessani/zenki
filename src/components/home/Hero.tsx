@@ -13,9 +13,6 @@ export function Hero() {
     <section className="bg-white border-b border-gray-100">
       <div className="px-6 sm:px-12 lg:px-20 py-12 sm:py-28 lg:py-36">
         <div className="max-w-3xl">
-          <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-widest mb-6">
-            Zenki
-          </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-3">
             Manufacturing.{" "}
             <br className="hidden sm:block" />

@@ -6,7 +6,7 @@ export function ContactCTA() {
     <section className="bg-white border-t border-gray-100 py-10 sm:py-20">
       <div className="px-6 sm:px-12 lg:px-20 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Ready to Partner with Zenki?
+          Ready to partner with us?
         </h2>
         <p className="text-gray-700 text-base max-w-xl mx-auto mb-8">
           Reach out for wholesale, contract manufacturing, truck parts, or

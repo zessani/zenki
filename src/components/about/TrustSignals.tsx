@@ -29,7 +29,7 @@ export function TrustSignals() {
       <div className="px-6 sm:px-12 lg:px-20">
         <div className="mb-12">
           <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-widest mb-3">
-            The Group at a Glance
+            At a Glance
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
             Scale and Capability

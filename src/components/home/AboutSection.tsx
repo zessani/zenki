@@ -28,14 +28,14 @@ export function AboutSection() {
           {/* Text */}
           <div>
             <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-widest mb-3">
-              About the Group
+              About
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-              A Group Built on Manufacturing and Distribution
+              Built on Manufacturing and Distribution
             </h2>
             <div className="w-16 h-0.5 bg-brand-blue-500 mb-6" />
             <p className="text-gray-700 leading-relaxed mb-4">
-              Zenki is a Karachi-based group operating across aerosol
+              Zenki is a Karachi-based company operating across aerosol
               manufacturing, auto care, truck parts and mirrors, and import
               sourcing from China.
             </p>
@@ -52,7 +52,7 @@ export function AboutSection() {
               href="/about"
               className="inline-flex items-center gap-2 text-brand-blue-500 font-semibold hover:text-brand-blue-600 transition-colors text-sm"
             >
-              About the Group
+              About Zenki
               <ArrowRight size={16} />
             </Link>
           </div>

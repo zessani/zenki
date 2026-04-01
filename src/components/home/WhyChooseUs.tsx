@@ -40,7 +40,7 @@ export function DivisionsSection() {
       <div className="px-6 sm:px-12 lg:px-20">
         <SectionHeader
           title="Our Divisions"
-          subtitle="Integrated business operations under one group."
+          subtitle="Integrated business operations under one roof."
         />
         <div className="divide-y divide-gray-200">
           {divisions.map((d) => (
