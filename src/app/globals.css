@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
   --color-brand-blue-50: #EBF5FB;
   --color-brand-blue-100: #D0E9F5;
