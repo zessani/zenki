@@ -52,16 +52,6 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:block">
-            <Link
-              href="/contact"
-              className="bg-brand-blue-900 text-white px-5 py-2 rounded text-sm font-semibold hover:bg-brand-blue-600 transition-colors duration-200"
-            >
-              Partner with Us
-            </Link>
-          </div>
-
           {/* Mobile hamburger */}
           <button
             className="md:hidden p-2 text-brand-gray-900"
@@ -91,13 +81,6 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            onClick={() => setOpen(false)}
-            className="block mt-2 bg-brand-blue-900 text-white text-center px-4 py-3 rounded font-semibold hover:bg-brand-blue-600 transition-colors"
-          >
-            Partner with Us
-          </Link>
         </div>
       )}
     </header>
