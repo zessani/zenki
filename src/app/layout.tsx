@@ -9,8 +9,12 @@ const inter = Inter({
   display: "swap",
 });
 
+const baseUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zenki-pk.com"),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "Zenki Group | Manufacturing, Distribution and Trading",
     template: "%s | Zenki Group",
